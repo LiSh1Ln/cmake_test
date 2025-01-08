@@ -1,0 +1,18 @@
+# 忽略 CMake 生成的文件
+/build/
+CMakeCache.txt
+CMakeFiles/
+
+# 忽略 Visual Studio 生成的文件
+.vs/
+.vscode/
+*.vcxproj
+*.vcxproj.user
+*.sln
+
+# 忽略编译生成的二进制文件
+*.exe
+*.dll
+*.pdb
+*.obj
+*.lib
